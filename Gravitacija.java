@@ -13,4 +13,8 @@ public class Gravitacija {
         double pospesek = (C * M)/((r + visina) * (r * visina));
         return pospesek;
     }
+    public static void izpis (double visina, double pospesek){
+        System.out.println(visina);
+        System.out.println(pospesek);
+    }
 }
